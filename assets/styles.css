@@ -1,0 +1,22 @@
+/*** Body ***/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+
+/*** Footer ***/
+footer {
+    background: #1E2D3D;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
