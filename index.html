@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Into the Deep</title>
+    <title>Frenz Real Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -10,13 +10,19 @@
     />
     <link rel="icon" type="image/png" href="/assets/images/favicon.svg" />
     <link rel="stylesheet" href="/assets/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&family=Dancing+Script:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Header -->
     <header>
       <div class="container">
         <div class="logo">
-          <a href="/">MyWebsite</a>
+          <a href="/">
+            <img src="/assets/images/sitelogo-nav.png" alt="frenzreal logo" />
+          </a>
         </div>
 
         <!-- Navigation -->
@@ -24,21 +30,17 @@
           <ul class="nav-links">
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/services">Services</a></li>
-            <li><a href="/blog">Blog</a></li>
+            <li><a href="/services">Portfolio</a></li>
             <li><a href="/contact" class="btn-primary">Contact</a></li>
           </ul>
         </nav>
       </div>
     </header>
-
     <!-- Main Content -->
     <main>
       <!-- Hero Section -->
       <div class="relative home-format">
-        <div
-          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200"
-        >
+        <div class="hero-section">
           <section class="home-hero">
             <div class="home-hero__container">
               <h2 class="home-hero__h2">Hello! I am</h2>
@@ -46,29 +48,85 @@
                 Florence Real <span>Florence Real</span
                 ><span>Florence Real</span><span>a Front-End Developer</span>
               </h1>
+              <div class="cover-divider"></div>
               <h2 class="home-hero__h2">
-                I build clean, modern, fully responsive websites
+                If you need a clean, modern, and fully responsive website,
+                contact me
               </h2>
+              <div class="hero-socials">
+                <span>Follow me on: </span>
+                <div class="hero-socials__logo">
+                  <a
+                    href="https://www.instagram.com/__frfreal"
+                    class="socials-ig"
+                  >
+                    <img
+                      src="/assets/images/instagram-logo.png"
+                      alt="instagram logo"
+                    />
+                  </a>
+                  <a
+                    href="https://www.linkedin.com/in/frenzreal/"
+                    class="socials-linkedin"
+                  >
+                    <img
+                      src="/assets/images/linkedin-logo.png"
+                      alt="linkedin logo"
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
           </section>
         </div>
 
-        <div
-          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 to-purple-800 text-white"
-        >
-          <h2 class="text-4xl font-bold">The Second slide</h2>
-          <p class="mt-2">Scroll Down for next slide</p>
+        <div class="description">
+          <div class="description-container">
+            <h2>01 - Description</h2>
+            <h3>A Front-End Web Developer</h3>
+            <p>I build websites that look great and work even better. With a solid foundation in HTML, CSS, JavaScript, and jQuery, I take designs from concept to fully functional, responsive pages. I care about the details, from clean code structure to smooth user interactions, and I enjoy turning ideas into interfaces that people actually enjoy using.</p>
+            <div class="description-skills">
+              <div class="desc-skills__item">
+                <img src="/assets/images/html5-logo.png" alt="html logo">
+              </div>
+              <div class="desc-skills__item">
+                <img src="/assets/images/css3-logo.png" alt="css logo">
+              </div>
+              <div class="desc-skills__item">
+                <img src="/assets/images/javascript-logo.png" alt="javascript logo">
+              </div>
+              <span>and more...</span>
+            </div>
+          </div>
         </div>
-        <div
-          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white"
-        >
-          <h2 class="text-4xl font-bold">The Third slide</h2>
-          <p class="mt-2">Scroll Down</p>
+        <div class="divider-full"></div>
+
+        <div class="aboutMe-section">
+          <div class="aboutMe-mainContainer">
+            <h2>02 - About Me</h2>
+            <h3>Personal Information</h3>
+            <div class="aboutMe">
+              <div class="aboutMe-container">
+                <div class="aboutMe-left">
+                  <img src="/assets/images/Picture-Formal.png" alt="" />
+                </div>
+                <div class="aboutMe-right">
+                  <div class="aboutMe-p">
+                    Florence Real
+                    <span>Full Name</span>
+                  </div>
+                  <div class="aboutMe-p">
+                    Quezon City, Philippines
+                    <span>Location</span>
+                  </div>
+                  <div class="aboutMe-p">Quezon City, Philippines</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div
-          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-200 to-indigo-100 text-black"
-        >
-          <h2 class="text-4xl font-bold">The Fourth slide</h2>
+        <div class="divider-full"></div>
+        <div class="portfolio-section">
         </div>
       </div>
 
