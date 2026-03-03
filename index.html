@@ -1,89 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Into the Deep</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This website serves as a website portfolio of Florence Real using github and VSCode">
-    <link rel="icon" type="image/png" href="/assets/images/favicon.svg">
-    <link rel="stylesheet" href="/assets/styles.css">
-</head>
-<body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This website serves as a website portfolio of Florence Real using github and VSCode"
+    />
+    <link rel="icon" type="image/png" href="/assets/images/favicon.svg" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <a href="/">MyWebsite</a>
-            </div>
-
-            <!-- Navigation -->
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/services">Services</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/contact" class="btn-primary">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="container">
+        <div class="logo">
+          <a href="/">MyWebsite</a>
         </div>
+
+        <!-- Navigation -->
+        <nav>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/blog">Blog</a></li>
+            <li><a href="/contact" class="btn-primary">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="container">
-                <h1>Welcome to Our Website</h1>
-                <p>Your short tagline goes here.</p>
-                <a href="/services" class="btn-primary">Get Started</a>
+      <!-- Hero Section -->
+      <div class="relative home-format">
+        <div
+          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-green-200 to-blue-200"
+        >
+          <section class="home-hero">
+            <div class="home-hero__container">
+              <h2 class="home-hero__h2">Hello! I am</h2>
+              <h1 class="home-hero__h1">
+                Florence Real <span>Florence Real</span
+                ><span>Florence Real</span><span>a Front-End Developer</span>
+              </h1>
+              <h2 class="home-hero__h2">
+                I build clean, modern, fully responsive websites
+              </h2>
             </div>
-        </section>
+          </section>
+        </div>
 
-        <!-- Content Section -->
-        <section class="content">
-            <div class="container">
-                <h2>Our Services</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-        </section>
+        <div
+          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-indigo-800 to-purple-800 text-white"
+        >
+          <h2 class="text-4xl font-bold">The Second slide</h2>
+          <p class="mt-2">Scroll Down for next slide</p>
+        </div>
+        <div
+          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-purple-800 to-pink-800 text-white"
+        >
+          <h2 class="text-4xl font-bold">The Third slide</h2>
+          <p class="mt-2">Scroll Down</p>
+        </div>
+        <div
+          class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b from-blue-200 to-indigo-100 text-black"
+        >
+          <h2 class="text-4xl font-bold">The Fourth slide</h2>
+        </div>
+      </div>
+
+      <script src="https://cdn.tailwindcss.com"></script>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <div class="footer-columns">
+      <div class="container">
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h3>About</h3>
+            <p>Short company description goes here.</p>
+          </div>
 
-                <div class="footer-col">
-                    <h3>About</h3>
-                    <p>Short company description goes here.</p>
-                </div>
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><a href="/branding-guideline/">Branding Guide</a></li>
+              <li><a href="/terms">Terms of Service</a></li>
+              <li><a href="/support">Support</a></li>
+            </ul>
+          </div>
 
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/branding-guideline/">Branding Guide</a></li>
-                        <li><a href="/terms">Terms of Service</a></li>
-                        <li><a href="/support">Support</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h3>Contact</h3>
-                    <p>Email: info@example.com</p>
-                    <p>Phone: +1 234 567 890</p>
-                </div>
-
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2026 FrenzReal. All rights reserved.</p>
-            </div>
+          <div class="footer-col">
+            <h3>Contact</h3>
+            <p>Email: info@example.com</p>
+            <p>Phone: +1 234 567 890</p>
+          </div>
         </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 FrenzReal. All rights reserved.</p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
